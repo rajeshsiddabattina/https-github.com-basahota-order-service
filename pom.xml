@@ -42,14 +42,18 @@
 		</dependency>
 	</dependencies>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-		<finalName>https-github.com-basahota-order-service</finalName>
+<build>
+    <pluginManagement>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+		<finalName>order-service</finalName>
+        </plugins>
+    </pluginManagement>
+</build>
+
 	</build>
 
 </project>
